@@ -1,4 +1,3 @@
-}
 @import url("https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;500;600;700;800;900&display=swap");
 /*Common style*/
 * {
@@ -36,7 +35,7 @@ html {
   display: flex;
   justify-content: center;
   align-items: center;
-  box-shadow: .2rem .2rem .2rem #333;
+  box-shadow: 0.2rem 0.2rem 0.2rem #333;
   transition: top 0.4s;
 }
 
@@ -53,37 +52,36 @@ html {
   justify-content: center;
   align-items: center;
   opacity: 0;
-  transition: color 0.3s,opacity.2s;
-
+  transition: color 0.3s, opacity.2s;
 }
 .change .navbar-link {
   opacity: 1;
 }
 
 .change .navbar-link:nth-child(1) {
-transition: opacity .4s .5s,color .3s;
+  transition: opacity 0.4s 0.5s, color 0.3s;
 }
 .change .navbar-link:nth-child(2) {
-transition: opacity .4s .6s ,color .3s;
+  transition: opacity 0.4s 0.6s, color 0.3s;
 }
 .change .navbar-link:nth-child(3) {
-transition: opacity .4s .7s ,color .3s;
+  transition: opacity 0.4s 0.7s, color 0.3s;
 }
 .change .navbar-link:nth-child(4) {
-transition: opacity .4s .8s ,color .3s;
+  transition: opacity 0.4s 0.8s, color 0.3s;
 }
 .change .navbar-link:nth-child(5) {
-transition: opacity .4s .9s ,color .3s;
+  transition: opacity 0.4s 0.9s, color 0.3s;
 }
 
 .navbar-link:hover {
   color: #fff;
 }
 
-.navbar-link i{
+.navbar-link i {
   font-size: 7rem;
 }
-.navbar-link span{
+.navbar-link span {
   font-size: 2.5rem;
   font-weight: 900;
   letter-spacing: 0.5rem;
@@ -98,24 +96,24 @@ transition: opacity .4s .9s ,color .3s;
   top: 1rem;
   left: 5rem;
   border-radius: 30rem 30rem 15rem 15rem;
-  box-shadow: .1rem .1rem ,1rem #333,-0.1rem -0.1rem -0.1rem #333;
+  box-shadow: 0.1rem 0.1rem, 1rem #333, -0.1rem -0.1rem -0.1rem #333;
   cursor: pointer;
   transition: top 0.4s 0.2s;
 }
 
 .menu.change {
-top: 15rem;
-transition: top 0.4s;
+  top: 15rem;
+  transition: top 0.4s;
 }
 
 .menu::before {
   content: "";
-  width: .3rem;
+  width: 0.3rem;
   height: 15rem;
   background-color: rgb(117, 99, 99);
   position: absolute;
   top: -15rem;
-  left: calc(50% - .15rem);
+  left: calc(50% - 0.15rem);
   box-shadow: 0.1rem 0 0.1rem #000;
 }
 /*End of Navbar */
